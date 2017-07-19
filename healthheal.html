@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Health Heal</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="images/Healthhealfavicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        img{
+            border-radius: 45%;
+        }
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s
+        }
+
+        .sidenav a:hover, .offcanvas a:focus{
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+
+        .navbar-header {
+            float: left;
+            padding: 15px;
+            text-align: center;
+            width: 100%;
+        }
+        .navbar-brand {float:none;}
+        .navbar-default {
+            background-color: white;
+            border-color: aliceblue;
+        }
+    </style>
+    <style>
+
+        .main-container
+        {
+
+            width: 277px;
+            height: 235px;
+
+        }
+        .Poster
+        {
+            width:100%;
+            height:70%;
+
+        }
+        .title
+        {
+            margin-top:-24px;
+            float: left;
+
+            width:81%;
+            height:20%;
+
+        }
+        .pop:hover
+        {
+            box-shadow: 10px 10px 5px #f1f1f1;
+
+        }
+
+        .name
+        {
+            margin-left: -50px;
+            margin-top: -18px;
+            text-align: -webkit-center;
+            color: #3dc9b3;
+        }
+        .link
+        {
+            padding-right: 12px;
+            margin-top: -36px;
+            text-align: -webkit-right;
+        }
+        .btn {
+            width: 44px;
+            padding: 0px 0px;
+            color: #2874f0;
+            background: #fff;
+            display: inline-block;
+            height: 27px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border-radius: 0px;
+        }
+        a{
+            text-decoration: none;
+        }
+    a:hover
+    {
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body style="width:95%;">
+
+
+<div class="container-fluid" >
+    <div class="row">
+        <div class="col-sm-3" style="margin-top: 3px;">
+            <div class="main-container">
+
+
+
+
+                    <div class="Poster">
+                        <img src="images/Nursing.png" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+
+
+                        <div class="name">
+                            <h4><a href="https://goo.gl/forms/0RzsyRQGvFLs0PlQ2" target="_blank "" >Nursing and PSC </a></h4>
+                        </div>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="col-sm-3" style="margin-top: 3px;">
+            <div class="main-container">
+
+                    <div class="Poster">
+                        <img src="images/NewPlacement.png" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+                   <div class="name">
+                       <h4><a href="https://goo.gl/forms/mxaTl8eV8LxYdlKD3" target="_blank ">New Placement </a></h4>
+                   </div>
+
+            </div>
+        </div>
+        <div class="col-sm-3"style="margin-top: 3px;">
+            <div class="main-container">
+
+                    <div class="Poster">
+                        <img src="images/replcaement.png" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+
+                    <div class="name">
+                        <h4><a href="https://goo.gl/forms/F8sGQsfgj11J7ru12" target="_blank " > Replacement </a></h4>
+                    </div>
+
+
+            </div>
+        </div>
+
+        <div class="col-sm-3" style="margin-top: 3px;">
+            <div class="main-container">
+                <div class="Poster">
+                        <img src="images/ServiceTermination.png" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+
+                    <div class="name">
+                        <h4><a href="https://goo.gl/forms/ZDs0Fss2QrRcxUIH3" target="_blank " >Service Termination </a></h4>
+                    </div>
+
+            </div>
+        </div>
+        <div class="col-sm-3" style="margin-top: -30px;">
+            <div class="main-container">
+
+                    <div class="Poster">
+                        <img src="images/Feedback.png" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+
+                    <div class="name">
+                        <h4><a href="https://goo.gl/forms/b2HEaHvZF4JbdAdB3" target="_blank " > Customer Feedback </a></h4>
+                    </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="col-sm-3" style="margin-top: -30px;">
+            <div class="main-container">
+
+                    <div class="Poster">
+                        <img src="images/servce_request.jpg" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+
+                    <div class="name">
+                        <h4><a href="https://goo.gl/forms/N5mci888ztemFYcu1" target="_blank " > Leads /Service requests </a></h4>
+                    </div>
+
+            </div>
+        </div>
+        <div class="col-sm-3" style="margin-top: -30px;">
+            <div class="main-container">
+
+                    <div class="Poster">
+                        <img src="images/follow1.jpg" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+
+                    <div class="name">
+                        <h4><a href="https://goo.gl/forms/OnZO49a449rUrW9k2" target="_blank " >Follow Up visit </a></h4>
+                    </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-sm-3" style="margin-top: -30px;">
+            <div class="main-container">
+
+                    <div class="Poster">
+                        <img src="images/flied_activity.jpg" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+
+                    <div class="name">
+                        <h4><a href="https://goo.gl/forms/9vVz9olLukA9Fdbw1" target="_blank " >Field Activities Request Form </a></h4>
+                    </div>
+
+            </div>
+        </div>
+        <div class="col-sm-3" style="margin-top: -30px;">
+            <div class="main-container">
+
+                    <div class="Poster">
+                        <img src="images/flied_office.jpg" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+
+                    <div class="name">
+                        <h4><a href="https://goo.gl/forms/kjdp5gxzR56gaQwl1" target="_blank " >Field Officers Log  </a></h4>
+                    </div>
+
+            </div>
+        </div>
+
+
+<div class="col-sm-3" style="margin-top: -30px;">
+            <div class="main-container">
+
+                    <div class="Poster">
+                        <img src="images/rental.jpg" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+
+                    <div class="name">
+                        <h4><a href="https://goo.gl/forms/4HmEh6X6mvdiVCi63" target="_blank " >Rental Request form </a></h4>
+                    </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="col-sm-3" style="margin-top: -30px;">
+            <div class="main-container">
+
+                    <div class="Poster">
+                        <img src="images/equipment_consumable.jpg" class="img-responsive"  style="width:81%; height:87%;">
+                    </div>
+
+
+                    <div class="name">
+                        <h4><a href="https://goo.gl/forms/sYFgZayvQdlwH51J3" target="_blank " style="    margin-left: 34px;" >Equipment and Consumables Request Form </a></h4>
+                    </div>
+
+            </div>
+ 
+
+
+
+
+        </div>
+        
+     
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

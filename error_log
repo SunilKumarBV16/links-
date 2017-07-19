@@ -1,0 +1,8 @@
+[06-Jun-2017 16:48:06 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function find() on array in /home/mathruh5/public_html/links/extractrul.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/mathruh5/public_html/links/extractrul.php on line 7
+[06-Jun-2017 16:49:39 Etc/GMT] PHP Fatal error:  Uncaught Error: Call to a member function find() on array in /home/mathruh5/public_html/links/extractrul.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/mathruh5/public_html/links/extractrul.php on line 8
